@@ -512,7 +512,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ## 4. Consideraciones generales
 
-Este proyecto se debe "resolver" de forma individual.
+Este proyecto se debe "resolver" en duplas.
 
 Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
 hasta la historia que puedas en el tiempo especificado.
@@ -711,9 +711,9 @@ necesitas desplegar el backend con firebase-cli.
 
 Puedes desplegar el frontend con Firebase hosting.
 Hay otras opciones como Github Pages (que ya estan familiarizadas),
-Netlify, y Heroku.
+Netlify, y Vercel.
 
-Netlify y Heroku son servicios para desplegar tu web app - backend y
+Netlify y Vercel son servicios para desplegar tu web app - backend y
 frontend - y no son limitados a usar solamente con Firebase.
 Por ejemplo, puedes desplegar un app MySQL/Express/React.
 
@@ -817,13 +817,16 @@ tiene un directorio de otro nombre puedes usar la opción `--dir`.
 netlify deploy --dir=dist`
 ```
 
+#### Vercel
+* [Vercel y Angular](https://vercel.com/guides/deploying-angular-with-vercel)
+* [Vercel y Vue](https://vercel.com/guides/deploying-vuejs-to-vercel)
+* [Vercel y React](https://vercel.com/guides/deploying-react-with-vercel)
+
 #### Github pages
 
 * [Github pages y Vue](https://cli.vuejs.org/guide/deployment.html#github-pages)
 * [Github pages y Angular](https://angular.io/guide/deployment#deploy-to-github-pages)
 * [Github pages y React](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom)
-
-#### Heroku
 
 ### :information_source: Nota para estudiantes que elijan React y `create-react-app`
 
