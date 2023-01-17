@@ -14,7 +14,7 @@
 
 ## 1. Preámbulo
 
-[React](https://es.reactjs.org/), [Angular](https://angular.io/) y [Vue](https://vuejs.org/)
+[React](https://es.reactjs.org/) y [Angular](https://angular.io/)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
@@ -95,7 +95,7 @@ costo total.
 ![out](https://user-images.githubusercontent.com/110297/45984241-b8b51c00-c025-11e8-8fa4-a390016bee9d.gif)
 
 El objetivo principal de este proyecto es aprender a construir una _interfaz web_
-usando el _framework_ elegido (React, Vue o Angular). Todos estos frameworks de
+usando el _framework_ elegido (React o Angular). Todos estos frameworks de
 Front-end atacan el mismo problema: **cómo mantener la interfaz y el estado sincronizados**.
 Así que esta experiencia espera familiarizarte con el concepto de _estado de pantalla_,
 y cómo cada cambio sobre el estado se va a ir reflejando en la interfaz (por ejemplo,
@@ -437,78 +437,6 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Quick Start - Documentación oficial (en inglés)](https://reactrouter.com/web/guides/quick-start)
 </p></details>
 
-### Vue
-
-- [ ] **Instancia de Vue.js**
-
-  <details><summary>Links</summary><p>
-
-  * [La instancia Vue - Documentación oficial](https://es.vuejs.org/v2/guide/instance.html)
-</p></details>
-
-- [ ] **Datos y métodos**
-
-  <details><summary>Links</summary><p>
-
-  * [Datos y Métodos - Documentación oficial](https://es.vuejs.org/v2/guide/instance.html#Datos-y-Metodos)
-</p></details>
-
-- [ ] **Uso y creación de componentes**
-
-  <details><summary>Links</summary><p>
-
-  * [Conceptos Básicos de Componentes - Documentación oficial](https://es.vuejs.org/v2/guide/components.html)
-</p></details>
-
-- [ ] **Props**
-
-  <details><summary>Links</summary><p>
-
-  * [Pasando datos a componentes secundarios con Props - Documentación oficial](https://es.vuejs.org/v2/guide/components.html#Pasando-datos-a-componentes-secundarios-con-Props)
-</p></details>
-
-- [ ] **Directivas (v-bind | v-model)**
-
-  <details><summary>Links</summary><p>
-
-  * [v-bind - Documentación oficial](https://es.vuejs.org/v2/api/#v-bind)
-  * [Binding en Formularios - Documentación oficial](https://es.vuejs.org/v2/guide/forms.html)
-</p></details>
-
-- [ ] **Iteración (v-for)**
-
-  <details><summary>Links</summary><p>
-
-  * [Mapeando una matriz a elementos con v-for - Documentación oficial](https://es.vuejs.org/v2/guide/list.html#Mapeando-una-matriz-a-elementos-con-v-for)
-</p></details>
-
-- [ ] **Eventos (v-on)**
-
-  <details><summary>Links</summary><p>
-
-  * [Manejo de eventos - Documentación oficial](https://es.vuejs.org/v2/guide/events.html)
-</p></details>
-
-- [ ] **Propiedades Computadas y Observadores**
-
-  <details><summary>Links</summary><p>
-
-  * [Propiedades Computadas y Observadores](https://es.vuejs.org/v2/guide/computed.html)
-</p></details>
-
-- [ ] **Routing**
-
-  <details><summary>Links</summary><p>
-
-  * [Getting Started - Documentación oficial de Vue Router](https://router.vuejs.org/guide/#html)
-</p></details>
-
-- [ ] **Clases y Estilos**
-
-  <details><summary>Links</summary><p>
-
-  * [Enlace Clases y Estilos - Documentación oficial](https://es.vuejs.org/v2/guide/class-and-style.html)
-</p></details>
 
 ## 4. Consideraciones generales
 
@@ -520,7 +448,7 @@ hasta la historia que puedas en el tiempo especificado.
 La lógica del proyecto debe estar implementada completamente en JavaScript
 (ES6+), HTML y CSS y empaquetada de manera automatizada.
 En este proyecto Sí está permitido usar librerías o frameworks
-(debes elegir entre [React](https://es.reactjs.org/), [Vue](https://vuejs.org/) o
+(debes elegir entre [React](https://es.reactjs.org/) o
 [Angular](https://angular.io/)).
 
 La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
@@ -768,8 +696,6 @@ Para usarlo primero necesitas crear una cuenta en
 [Netlify](http://netlify.com) y después puedes conectar tu repo.
 
 * [Netlify y Angular](https://www.netlify.com/blog/2019/09/23/first-steps-using-netlify-angular/)
-* [Netlify y Vue](https://cli.vuejs.org/guide/deployment.html#gitlab-pages)
-* [Netlify y Vue](https://medium.com/vue-mastery/deploying-a-vue-app-to-netlify-8f8f7d36f8fb)
 * [Netlify y React](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
 
 Para desplegar tu aplicación en netlify seleccionas acceder con GitHub
@@ -819,12 +745,10 @@ netlify deploy --dir=dist`
 
 #### Vercel
 * [Vercel y Angular](https://vercel.com/guides/deploying-angular-with-vercel)
-* [Vercel y Vue](https://vercel.com/guides/deploying-vuejs-to-vercel)
 * [Vercel y React](https://vercel.com/guides/deploying-react-with-vercel)
 
 #### Github pages
 
-* [Github pages y Vue](https://cli.vuejs.org/guide/deployment.html#github-pages)
 * [Github pages y Angular](https://angular.io/guide/deployment#deploy-to-github-pages)
 * [Github pages y React](https://create-react-app.dev/docs/deployment/#github-pages-https-pagesgithubcom)
 
@@ -869,7 +793,6 @@ yarn start
 #### Frameworks / libraries
 
 * [React](https://es.reactjs.org/)
-* [Vue](https://vuejs.org/)
 * [Angular](https://angular.io/)
 
 #### Herramientas
@@ -933,3 +856,13 @@ promesas.
   En caso de que el número entero `discount` sea mayor a 80,
   la promesa retornará un error con el mensaje de que el descuento es
   demasiado grande, y por ende, no aplicable.
+
+## 8. Para considerar Project Feedback
+
+ * [ ] Tiene una interfaz que cumple los criterios mínimos con al menos 3 Historias de Usuario.
+ * [ ] Haber recibido feedback de la aplicación de al menos una usuaria.
+ * [ ] El app debe que ser  una optamizada por tablet, pero no queremos una app nativa, sino una web app que sea mobile-first.
+ * [ ] La aplicación desplegada debe tener 80% o más el las puntuaciones de Performance, Progressive Web App, Accessibility y Best Practices de Lighthouse.
+ * [ ] El proyecto será entregado libre de errores de eslint (los warnings están ok).
+ * [ ] El proyecto será entregado incluyendo pruebas unitarias que cubren un mínimo del 70% de statements, functions, lines y branches.
+ * [ ] Esta desplegado por una plataforma tipo Netlify, Vercel, etc.
